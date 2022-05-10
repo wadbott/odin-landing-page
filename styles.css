@@ -1,0 +1,72 @@
+.main,
+.header,
+.intro,
+.cards,
+.quote,
+.action,
+.footer {
+    display: flex;
+}
+
+.main {
+    flex-direction: column;
+    
+}
+
+.header { 
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    
+}
+
+
+.intro {
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 20px;
+    
+
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-img-placeholder {
+    display: flex;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.cards {
+  
+    background-color: white;
+
+}
+
+.quote {
+    
+    background-color: #E5E7EB;
+
+}
+
+.action{
+    
+    background-color: white;
+
+}
+
+.footer {
+  
+    background-color: #1F2937;
+
+}
+
